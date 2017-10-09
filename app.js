@@ -35,18 +35,17 @@ app.get('/shows/:id', (req, res, next) => {
   });
 });
 
-
 // Show.destroy
 // Show.create
 // Show.update
 
-//Users
-//Adding Favorite to a user
+// Users
+// Adding Favoite to a user
 // app.post('/favorites', ({body: {UserId, ShowId}, res, next}) => {
 //   User.findById(UserId)
 //   .then( (foundUser) => {
 //     // addFavorite auto-created when belongsToMany relationship established in the models
-//     foundUser.addFavorite(ShowId)
+//     foundUser.addFavorites(ShowId)
 //     .then ( (newRecord) => {
 //       res.status(201).json(newRecord);
 //     });
@@ -65,8 +64,6 @@ app.put('/users/:id', (req, res, next) => {
     });
   });
 });
-
-
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
