@@ -1,0 +1,24 @@
+{
+  "name": "node_sequelize101_ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "pg": "^7.3.0",
+    "sequelize": "^4.13.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bshunk/node_sequelize101_ex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bshunk/node_sequelize101_ex/issues"
+  },
+  "homepage": "https://github.com/bshunk/node_sequelize101_ex#readme"
+}
